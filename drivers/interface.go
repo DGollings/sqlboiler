@@ -16,12 +16,15 @@ const (
 	ConfigWhitelist = "whitelist"
 	ConfigSchema    = "schema"
 
-	ConfigUser    = "user"
-	ConfigPass    = "pass"
-	ConfigHost    = "host"
-	ConfigPort    = "port"
-	ConfigDBName  = "dbname"
-	ConfigSSLMode = "sslmode"
+	ConfigUser        = "user"
+	ConfigPass        = "pass"
+	ConfigHost        = "host"
+	ConfigPort        = "port"
+	ConfigDBName      = "dbname"
+	ConfigSSLMode     = "sslmode"
+	ConfigSSLKEY      = "sslkey"
+	ConfigSSLCERT     = "sslcert"
+	ConfigSSLROOTCERT = "sslrootcert"
 )
 
 // Interface abstracts either a side-effect imported driver or a binary
